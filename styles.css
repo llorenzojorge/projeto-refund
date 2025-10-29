@@ -34,8 +34,12 @@ body {
   color: #1f2523;
 }
 
+main {
+  display: grid;
+}
+
 .logo {
-  margin: 3rem 0 2rem;
+  margin-block: 3rem 2rem;
 }
 
 main section {
@@ -282,6 +286,10 @@ aside ul {
     min-width: 100%;
   }
 
+  .logo {
+    margin-inline: auto;
+  }
+  
   main section {
     flex-direction: column;
     width: 100%;
