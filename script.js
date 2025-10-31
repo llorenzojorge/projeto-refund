@@ -84,9 +84,7 @@ function expenseAdd(newExpense) {
     removeIcon.classList.add("remove-icon")
     removeIcon.setAttribute("src", "img/remove.svg")
     removeIcon.setAttribute("alt", "remover")
-    // <img src="./img/remove.svg" alt="remover" class="remove-icon" />
-
-
+    
     // Adiciona nome e categoria na div.expense-info
     expenseInfo.append(expenseName, expenseCategory)
 
